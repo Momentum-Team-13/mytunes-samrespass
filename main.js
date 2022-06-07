@@ -36,9 +36,8 @@ function buildProfile (jazzy) {
         saxElement.classList.add("albumArt")
         saxElement.src = jazz.artworkUrl100
         saxElement.addEventListener("click", function () {
-            let celloElement = document.createElement("audio controls")
+            let celloElement = document.querySelector("#player")
             celloElement.src = jazz.previewUrl
-            hipHop.appendChild(nigo)
         }
         )
         hipHop.appendChild(saxElement)
