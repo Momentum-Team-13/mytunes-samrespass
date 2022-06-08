@@ -1,4 +1,14 @@
+/* General Styles */
+.wrap {width:1000px;margin:auto;background-color: rgba(32, 165, 237, .7)}
+#ichi {text-align: center;}
+#ni {display: flex;justify-content: center;}
+body {background-color: pink;}
+/* Search Bar Styling */
+#queso {width:50%;text-align: center;}
+#salsa {display:flex;justify-content: center;}
+/* Audio Bar Styling */
+#player {width:50%;padding-top: 10px;}
 /* Search Results Styling */
 .searchResults {display: grid;grid-template-columns: 20% 30% 20% 30%;width:600px;}
-.result {padding:10px;}
+.result {margin: 10px 0px 0px 20px;font-family: 'Bebas Neue', cursive;font-size:24px;}
 .albumArt {padding:10px;}

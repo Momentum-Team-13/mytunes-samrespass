@@ -38,16 +38,20 @@ function buildProfile (jazzy) {
         saxElement.addEventListener("click", function () {
             let celloElement = document.querySelector("#player")
             celloElement.src = jazz.previewUrl
+            if (celloElement.src = jazz.previewUrl) 
+                saxElement.addEventListener("click", function (){celloElement.pause();
+            })
         }
         )
+
         hipHop.appendChild(saxElement)
         let jazzyElement = document.createElement('div')
         jazzyElement.classList.add('result')
-        jazzyElement.innerText = jazz.artistName +' ' + jazz.trackName
+        jazzyElement.innerText = jazz.artistName + '\b\r'  + jazz.trackName
         hipHop.appendChild(jazzyElement)
     }
 }
-
+// This clears old search results
 function killEm () {
     nigo.innerText = null;
 }
