@@ -38,11 +38,7 @@ function buildProfile (jazzy) {
         saxElement.addEventListener("click", function () {
             let celloElement = document.querySelector("#player")
             celloElement.src = jazz.previewUrl
-            if (celloElement.src = jazz.previewUrl) 
-                saxElement.addEventListener("click", function (){celloElement.pause();
-            })
-        }
-        )
+    })
 
         hipHop.appendChild(saxElement)
         let jazzyElement = document.createElement('div')
