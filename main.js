@@ -45,6 +45,10 @@ function buildProfile (jazzy) {
         jazzyElement.classList.add('result')
         jazzyElement.innerText = jazz.artistName + '\b\r'  + jazz.trackName
         hipHop.appendChild(jazzyElement)
+        jazzyElement.addEventListener("click", function () {
+            let celloElement = document.querySelector("#player")
+            celloElement.src = jazz.previewUrl
+    })
     }
 }
 // This clears old search results
