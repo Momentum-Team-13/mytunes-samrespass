@@ -1,0 +1,20 @@
+/* General Styles */
+.wrap {max-width:1000px;margin:auto;background-color: rgba(32, 165, 237)}
+#ichi {text-align: center;}
+#ni {display: flex;justify-content: center;}
+body {background-color: rgb(121, 206, 251);}
+h1 {font-family: 'Bebas Neue', cursive;margin-bottom:0;color:white;}
+/* Search Bar Styling */
+#queso {width:50%;text-align: center;}
+#salsa {display:flex;justify-content: center;}
+/* Audio Bar Styling */
+#player {width:50%;padding-top: 10px;}
+/* Search Results Styling */
+.searchResults {display: grid;grid-template-columns: 20% 30% 20% 30%;max-width:600px;}
+.result {margin: 10px 0px 0px 20px;font-family: 'Bebas Neue', cursive;font-size:18px;color:white;}
+.result:hover {cursor: pointer;color:violet;}
+.albumArt {padding:10px;border: 3px white solid;border-radius:20%;margin:4px;}
+.albumArt:hover {cursor: pointer;border-color:violet;background-color:white;}
+@media (max-width:530px) {
+   .albumArt {width: 80%;}
+}
